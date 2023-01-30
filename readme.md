@@ -1,6 +1,5 @@
 # DarkLog - A WordFlow Theme
 
----
 <!--**New Feature**: Now your readers can search using wordflow json api!-->
 
 ### About This Project
