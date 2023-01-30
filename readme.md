@@ -7,6 +7,56 @@
 
 A lightweight theme for the project [WordFlow](https://github.com/devsimsek/WordFlow)
 
+<!-- Soon... Want to preview this theme? [Click here!](https://preview_theme.devsimsek.github.io)-->
+
+### Installation
+
+#### Option #1 | Using WordFlow Installer
+
+Open terminal or console and type;
+
+````sh
+python main.py installtheme
+````
+
+WordFlow will ask theme name. Type darklog and WordFlow will install theme automatically.
+
+#### Option #2 | Manually Cloning Theme
+
+Clone this theme using git on your themes directory.
+
+````sh
+git clone -b darklog_theme https://github.com/devsimsek/WordFlow_themes darklog
+````
+
+Warning: Folder name must be darklog. Otherwise WordFlow will generate error.
+
+After cloning the repository navigate to WordFlow configuration file (config.yaml) from root and edit theme name to
+darklog.
+
+````yaml
+site:
+  domain: your domain
+  theme: darklog
+````
+
+### Configuration
+
+Open ``themes/darklog/config.yaml`` file using your favorite text editor.
+In author section edit
+
+````yaml
+author:
+  keywords: Seo keywords. Use comma after every keyword.
+  description: Seo description. this field will appear in search engines and opengraph api
+  about: Tell us about yourself.
+  email: Your Email
+  name: Your bellowed name
+  nickname: Your bellowed nickname
+  linkedin: LinkedIn url
+  github: Github url
+````
+
 ### Roadmap
 
 * [ ] Integrate Search Feature
