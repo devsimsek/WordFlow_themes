@@ -68,6 +68,7 @@ author:
 
 ### Changelog
 
+* 31 Jan 2023 - Added Category (Working listing category pages)
 * 30 Jan 2023 - Initial Release
 
 ### Contributing

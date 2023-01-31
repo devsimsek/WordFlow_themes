@@ -8,6 +8,7 @@ snippets:
         <h3 id="post-title" class="post-heading"><a href="/post/[[file]].html">[[title]]</a></h3>
         <div class="flex-inline">
             <span class="date"><i class="bi bi-calendar-date"></i> [[date]]</span>
+            <span class="category"><i class="bi bi-tag"></i> [[category]]</span>
         </div>
     </section>
     <section class="post">
